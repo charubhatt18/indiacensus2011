@@ -1,5 +1,5 @@
-let log4js = require('log4js');
 // importing log4js module
+let log4js = require('log4js');
 let logger = log4js.getLogger();
 
 module.exports = function convert(startYear) {
@@ -20,8 +20,8 @@ module.exports = function convert(startYear) {
 		let ageGr;
 
 		const rl = readline.createInterface({
-			input: fs.createReadStream('../inputdata/final.csv')
 			// csv file which is to convert to json given as input
+			input: fs.createReadStream('../inputdata/final.csv')
 		});
 
 		// line event of readLine module-it reads file line by line

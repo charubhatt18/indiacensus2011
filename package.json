@@ -4,7 +4,7 @@
   "scripts": {
     "test": "mocha",
     "build": "gulp build",
-    "execute": "node js/IndiaCensusAmardeep.js",
+    "execute": "node js/indiaCensusCharu.js",
     "execute": "node js/ageconverter"
   },
   "author": "StackRoute",
