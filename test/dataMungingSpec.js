@@ -9,7 +9,7 @@ describe("A series of test for Converting  CSV to JSON",
   function(err){
 
     it("should return sucess message", function(done){
-      let result = convert(201);
+      let result = convert(2001);
       result.should.be.equal('JSON written successfully');
       done();
     });
@@ -42,7 +42,6 @@ describe("A series of test for Converting  CSV to JSON",
    });
 
   });
-
 
 describe("Test createInterface method of readline", function(err){
   it("should be called only once", function() {
